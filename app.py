@@ -59,7 +59,7 @@ prompt = ChatPromptTemplate.from_messages([
 
 
 def retrieve_context(inputs):
-    docs = retriever.get_relevant_documents(inputs["question"])
+    docs = retriever.invoke(inputs["question"])
     return {"context": docs, "question": inputs["question"]}
 
 
