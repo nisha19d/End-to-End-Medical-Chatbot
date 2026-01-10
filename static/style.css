@@ -131,7 +131,7 @@ img {
 
 .bubble {
   position: relative;
-  padding: 10px 35px 18px 10px; /* add space for time inside bubble */
+  padding: 10px 35px 18px 10px; 
   font-size: 14px;
   border-radius: 10px;
   max-width: 75%;

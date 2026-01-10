@@ -50,5 +50,5 @@ open up localhost:5000
 -Python
 -LangChain
 -Flask
--GPT
+-Ollama
 -Pinecone

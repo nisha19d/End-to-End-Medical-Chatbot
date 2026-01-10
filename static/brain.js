@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .catch((err) => {
         typingDiv.remove();
-        addMessage("⚠️ Sorry, I couldn't process your request.", "left");
+        addMessage("Sorry, I couldn't process your request.", "left");
         console.error(err);
       });
   }
